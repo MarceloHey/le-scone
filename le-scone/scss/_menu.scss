@@ -26,7 +26,7 @@
       text-align: right;
       margin-left: -80px;
       @include device(small) {
-        margin-left: 0px;
+        margin-left: -10px;
         width: auto;
       }
     }
@@ -45,7 +45,7 @@
       right: 120px;
     }
     @include device(small) {
-      width: 120px;
+      width: 100px;
       margin-top: 10px;
     }
   }

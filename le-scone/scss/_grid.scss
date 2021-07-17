@@ -110,7 +110,14 @@ $small-device: 380px;
 }
 
 .container {
-  @include container
+  @include container;
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: 0.8s;
+  &.show {
+    opacity: 1;
+    transform:translate3d(0, 0, 0);
+  }
 }
 
 // MIXING ROW
